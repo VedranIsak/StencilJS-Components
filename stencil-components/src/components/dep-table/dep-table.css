@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+table {
+    color: #004894;
+    width: 50%;
+}
+
+table thead th {
+    font-size: 1.5rem;
+    margin-right: 100px;
+    text-align: left;
+}
+
+table tbody tr {
+    height: 60px;
+    padding-top: 1vmin;
+    padding-bottom: 1vmin;
+}
+
+table tbody tr td button {
+    text-transform: uppercase;
+    width: 135px;
+    height: 30px;
+    border-radius: 6px;
+    border: 2.5px solid #1688D7;
+    cursor: pointer;
+}
+
+.dep {
+    font-size: 1.2rem;
+}
+
+.continue-btn {
+    background: #FFFFFF;
+    color: #1688D7;
+}
+
+.begin-btn {
+    background: #1688D7;
+    color: #FFFFFF;
+}
